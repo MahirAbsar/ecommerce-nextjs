@@ -1,8 +1,8 @@
 export const metadata = {
-  title: "Home"
-}
+  title: "Home",
+};
 
-const HomePage = () => {
+const HomePage = async () => {
   return <h2 className="text-2xl text-center">Prostore</h2>;
 };
 
